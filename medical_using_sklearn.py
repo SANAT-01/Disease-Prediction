@@ -9,7 +9,7 @@ from pywebio import start_server
 
 import pickle
 import numpy as np
-model = pickle.load(open('regression_rf.pkl', 'rb'))
+model = pickle.load(open('regression_rf(1).pkl', 'rb'))
 app = Flask(__name__)
 
 
